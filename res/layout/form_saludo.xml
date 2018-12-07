@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Una "ScrollView" permite desplazar su contenido cuando no se puede
+desplegar completo en el el ViewGroup padre. Solo puede tener un hijo.
+
+android:padding="16dp"
+  La separación entre el borde del componente y la colocación de sus hijos
+  es de 16dp. -->
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:padding="16dp">
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <!-- Campo de captura de texto.
+
+    android:hint="@string/nombre1"
+      sello de agua cuyo texto se toma de
+      <string name="nombre1">Nombre 1</string> en el archivo strings.xml
+      
+    android:inputType="textPersonName"
+      despliega un teclado especializado en la captura de nombres de
+      persona. -->
+    <EditText
+      android:id="@+id/iuNombre1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="@string/nombre1"
+      android:inputType="textPersonName"/>
+    <EditText
+      android:id="@+id/iuNombre2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="@string/nombre2"
+      android:inputType="textPersonName"/>
+    <TextView
+      android:id="@+id/iuRespuesta"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"/>
+    <!--
+    Botón para ejecutar una acción.
+      
+    android:text="@string/saludar"
+      Texto que muestra el botón.
+    android:onClick="saluda"
+      Al hacer clic en el botón, se invoca el método saluda(View) del
+      controlador. -->
+    <Button
+      android:id="@+id/iuSaluda"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/saludar"
+      android:onClick="saluda"/>
+  </LinearLayout>
+</ScrollView>
