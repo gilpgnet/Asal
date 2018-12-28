@@ -1,2 +1,2 @@
 # Asal
-Ejemplo simple de procesamiento en Android. Sua Android SDK y gradle.
+Ejemplo simple de procesamiento en Android. Usa Android SDK y gradle.
