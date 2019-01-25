@@ -3,6 +3,10 @@ Ejemplo simple de procesamiento en Android. Usa Android SDK y gradle.
 
 Para entender mejor el código, se recomienda estudiar primero el proyecto [Amens](https://github.com/gilpgnet/Amens).
 
+Si tu computadora presenta problemas para compilar o ejecutar el código, puedes probar la
+[versión para AIDE IDE](https://github.com/gilpgnet/AideMens).
+
+
 ## Ejecución en Windows
 1. Modifica la línea 5 del archivo _Asal.bat_ y asigna el nombre de la carpeta de tu cuenta a la variable **CUENTA**.
 2. Abre el Símbolo del Sistema (cmd).
