@@ -1,7 +1,7 @@
 # Asal
 Ejemplo simple de procesamiento en Android. Usa Android SDK y gradle.
 
-Para entender mejor el código, se recomienda estudiar primero el proyecto [Amens](https://github.com/gilpgnet/Amens).
+Para entender mejor el código, se recomienda estudiar primero el proyecto [Amens](https://github.com/gilpgnet/Asal).
 
 Si tu computadora presenta problemas para compilar o ejecutar el código, puedes probar la versión para AIDE IDE:
 https://github.com/gilpgnet/AideSal.
