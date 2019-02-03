@@ -27,7 +27,7 @@ https://github.com/gilpgnet/AideSal.
      Si es una versión menor, necesitas descargar el driver para tu teléfono del sitio del fabricante, instalarlo y luego conectar tu
      dispositivo.
   
-4. Abre una terminal y cámbiate a la carpeta del ejemplo descompactado. Por ejemplo, si descompactas el proyecto en la carpeta
+4. Cámbiate a la carpeta del ejemplo descompactado. Por ejemplo, si descompactas el proyecto en la carpeta
    _C:\ejemplos_, introduce el comando
    ```Batchfile
         cd C:\ejemplos\Asal-master
